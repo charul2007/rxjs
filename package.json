@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch",
-    "test": "jasmine test/*-spec.js"
+    "test": "jasmine test/*-spec.js",
+    "start": "live-server --port=8000"
   },
   "author": "scq000",
   "dependencies": {
